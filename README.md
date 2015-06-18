@@ -2,7 +2,7 @@
 ====
 #项目简述
 项目中通过扩展NSString来增加加密方法 <br>
-```ios
+```c
 #import "NSString+MD5.h"
 ```
 方法的实现
