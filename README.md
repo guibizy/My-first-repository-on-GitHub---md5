@@ -2,9 +2,11 @@
 ====
 #项目简述
 项目中通过扩展NSString来增加加密方法 <br>
- <br>
 ```ios
 #import "NSString+MD5.h"
+```
+方法的实现
+```ios
 [[NSString stringWithFormat:@"%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X",
 result[0], result[1], result[2], result[3],
 result[4], result[5], result[6], result[7],
