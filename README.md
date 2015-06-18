@@ -1,7 +1,7 @@
 字符串的md5加密
 ====
 #项目简述
-项目中通过扩展NSString来增加加密方法
+项目中通过扩展NSString来增加加密方法 <br>
 NSString+MD5.h <br>
 [[NSString stringWithFormat:@"%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X",
 result[0], result[1], result[2], result[3],
@@ -13,6 +13,5 @@ result[12], result[13], result[14], result[15]
 直接使用NSString 方法 stringTo16MD5
 ## 32位加密
 直接使用NSString 方法 stringTo32MD5
->>>>>>> Stashed changes
 
 change string to 32md5 or 16md5
